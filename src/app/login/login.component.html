@@ -1,0 +1,199 @@
+
+<!-- Created by CodingLab |www.youtube.com/c/CodingLabYT-->
+
+<head>
+  <meta charset="UTF-8">
+  <!--<title> Login and Registration Form in HTML & CSS | CodingLab </title>-->
+
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ </head>
+<body>
+<div class="container2 ltr">
+  <input type="checkbox" id="flip">
+  <div class="cover ltr">
+    <div class="front ltr">
+      <img src="assets/images/WebLogin.svg" alt="">
+      <div _ngcontent-hsi-c1="" class="text"><span _ngcontent-hsi-c1="" class="text-1">Book fast appointment<br _ngcontent-hsi-c1="">with your favorite salon</span></div>
+      <div _ngcontent-hsi-c1="" class="text text-bottom"><span _ngcontent-hsi-c1="" class="text-2">Salotime Will Make your Life Easier</span></div>
+    </div>
+    <div class="back ltr">
+      <img class="backImg"  src="assets/images/WebLogin.svg"  alt="">
+      <div class="text">
+        <span class="text-1">Complete miles of journey <br> with one step</span>
+        <span class="text-2">Let's get started</span>
+      </div>
+    </div>
+  </div>
+  <div class="forms ltr">
+    <img  src="assets/img/logo_trans3.svg" style="padding-left: 9%;" alt="logo">
+      <div class="form-content ltr">
+        <div class="login-form ltr">
+          <div class="modal-header text-center pb-4">
+            <h3   *ngIf="!isAMember" class="modal-title w-100 font-weight-bold text-center" id="myModalLabel">
+              <strong class="grayc">SIGN</strong>
+              <a class="blue-text font-weight-bold">
+                <strong> UP</strong>
+              </a>
+            </h3>
+  
+            <h3  *ngIf="isAMember" class="modal-title w-100 font-weight-bold text-center" id="myModalLabel">
+              <strong>SIGN</strong>
+              <a class="blue-text font-weight-bold">
+                <strong> IN</strong>
+              </a>
+            </h3>
+  
+          </div>
+          <div >
+            <div class="md-form mb-5" *ngIf="!isAMember" >
+                <input type="text" #fName id="fName" (keyup)="NextElementOnEnter($event)" class="form-control text-center" mdbValidate mdbInput
+                       [formControl]="fullName">
+                <label for="fName">{{ 'login.full_name' | translate }}</label>
+                <mdb-error *ngIf="fullName.invalid && (fullName.dirty || fullName.touched)">
+                    {{ 'login.Input_invalid' | translate }}
+                </mdb-error>
+                <mdb-success *ngIf="fullName.valid && (fullName.dirty || fullName.touched)">
+                    {{ 'login.Input_valid' | translate }}
+                </mdb-success>
+            </div>
+
+            <div class="md-form pb-3" >
+                <input type="tel" #pNumber id="pNumber" (keyup)="submtOnEnter($event,false)"  class="form-control text-center" mdbValidate mdbInput
+                       [formControl]="phoneNum">
+                <label for="pNumber">   {{ 'login.your_phone_number' | translate }}</label>
+                <mdb-error
+                        *ngIf="phoneNum.invalid && (phoneNum.dirty || phoneNum.touched)">
+                    {{ 'login.Input_invalid' | translate }}
+                </mdb-error>
+                <mdb-success
+                        *ngIf="phoneNum.valid && (phoneNum.dirty || phoneNum.touched)">
+                    {{ 'login.Input_valid' | translate }}
+                </mdb-success>
+
+            </div>
+
+            <!--Grid row-->
+            <div class="row d-flex align-items-center mb-4">
+
+                <!--Grid column-->
+                <div class="text-center mb-3 col-md-12">
+                  <button type="button" mdbBtn color="info" block="true" rounded="true"  (click)="sentCode()" class="z-depth-1 waves-light mt-4"
+                  mdbWavesEffect> {{ 'login.sent_code' | translate }}
+          </button>
+
+                  <label #test  for="flip"></label>
+
+
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+
+            <!--Grid row-->
+            <div class="row">
+
+                <!--Grid column-->
+                <div class="col-md-12">
+                    <p *ngIf="!isAMember" class="font-small  d-flex justify-content-center">
+                        {{ 'login.Have_an_account' | translate }}
+                        <a  class="blue-text ml-1 rtl-mr-1 font-weight-bold"  (click)="logIn()">  {{ 'login.Login' | translate }} </a>
+                    </p>
+
+                    <p *ngIf="isAMember" class="font-small  d-flex justify-content-center">
+                        {{ 'login.Not_a_member?' | translate }}
+                        <a  class="blue-text ml-1 rtl-mr-1 font-weight-bold"  (click)="signUp()" >
+                            {{ 'login.SignUp' | translate }}</a>
+                    </p>
+                </div>
+                <!--Grid column-->
+
+            </div>
+            <!--Grid row-->
+
+        </div>
+    </div>
+      <div class="signup-form">
+        <img  src="assets/img/logo_trans3.svg" style="padding-left: 62px;position: absolute;left: 485px;top: 31px;" alt="logo">
+        <div class="modal-header text-center pb-4">
+          <h3   *ngIf="!isAMember" class="modal-title w-100 font-weight-bold text-center" id="myModalLabel">
+            <strong class="grayc">SIGN</strong>
+            <a class="blue-text font-weight-bold">
+              <strong> UP</strong>
+            </a>
+          </h3>
+
+          <h3  *ngIf="isAMember" class="modal-title w-100 font-weight-bold text-center" id="myModalLabel">
+            <strong>SIGN</strong>
+            <a class="blue-text font-weight-bold">
+              <strong> IN</strong>
+            </a>
+          </h3>
+
+        </div>
+        <form [formGroup]="authForm" class=" mb-4">
+          <!--Form-->
+      
+              <div class="mb-5  text-center">
+                <h6 class="mb-3" data-wow-delay="0.3s">
+                  {{ 'login.send_Vertification_code_to_your_phone' | translate }} ({{f.phoneNum.value}})
+                </h6>
+              </div>
+      
+              <div class="md-form">
+                <input  [formControl]="authcode" #myinput  (keyup)="submtOnEnter($event,true)"   id="Vertification" type="text" [(ngModel)]="code"  mdbValidate mdbInput [class.is-invalid]="authcode.invalid && authcode.touched" class="form-control text-center">
+                <label for="Vertification" >
+                  {{ 'login.Code' | translate }}
+                </label>
+                <div *ngIf="authcode.invalid && authcode.touched" class="row">
+                  <small *ngIf="authcode.errors?.pattern" class="text-danger col-12">
+                    {{ 'login.only_number_allowed' | translate }}        
+                  </small>
+                  <small *ngIf="authcode.errors?.required" class="text-danger col-12">
+                    {{ 'login.code_number_is_required' | translate }}
+                  </small>
+                </div>
+              </div>
+      
+                                 <!--saleem todo: expire code-->
+                                  <!--
+                                  <div class="row">                  
+                                      <div class="col-md-12">
+                                        <p *ngIf="!isAMember" class="custom-font-small white-text d-flex justify-content-center">Code Expires In:
+                                          <a  class="blue-text ml-1 font-weight-bold" >{{expiresIn}}</a>
+                                        </p>
+                                      </div>
+                                    </div>             
+                                  -->
+      
+      
+      
+              <div  class="text-center mt-4">
+                <button type="button" mdbBtn color="info" block="true" rounded="true" (click)="onSubmit()" class="z-depth-1 waves-light"
+                mdbWavesEffect> {{ 'login.SignUp' | translate }}
+               </button>
+      
+                <hr class="hr-light mb-3 mt-4">
+                <div class="inline-ul text-center" *ngIf="false">
+                  <a class="p-2 m-2 tw-ic">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a class="p-2 m-2 li-ic">
+                    <i class="fab fa-linkedin-in"> </i>
+                  </a>
+                  <a class="p-2 m-2 ins-ic">
+                    <i class="fab fa-facebook-f"> </i>
+                  </a>
+                </div>
+              </div>
+          <!--/.Form-->   
+      
+        </form>
+  </div>
+  </div>
+  </div>
+</div>
+</body>

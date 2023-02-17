@@ -1,0 +1,70 @@
+{
+  "_from": "cordova-plugin-firebase-crash",
+  "_id": "cordova-plugin-firebase-crash@4.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-sI/Ozq7e680aIbniRvNsiTtAMoGxb/cTQZQWcFuYtRb2GwamNo3lNHGzdAzxfL3xF7Nh+nC4/o/cCIv6YgZ78w==",
+  "_location": "/cordova-plugin-firebase-crash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-crash",
+    "name": "cordova-plugin-firebase-crash",
+    "escapedName": "cordova-plugin-firebase-crash",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-crash/-/cordova-plugin-firebase-crash-4.2.0.tgz",
+  "_shasum": "4ece7c2951c8b73c28cc4e99f242b077509b5659",
+  "_spec": "cordova-plugin-firebase-crash",
+  "_where": "C:\\salotime\\client",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-crash/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-firebase-crash",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "dependencies": {
+    "xcode": "2.0.0"
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for Firebase Crashlytics",
+  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-crash?sponsor=1",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-crash#readme",
+  "keywords": [
+    "cordova",
+    "firebase",
+    "crash",
+    "analytics",
+    "crashlytics",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-crash",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-crash.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "perl -p -i -e 's/(version=)\"\\d+\\.\\d+\\.\\d+\"/$1\"'$npm_package_version'\"$2/' plugin.xml && git add plugin.xml"
+  },
+  "version": "4.2.0"
+}

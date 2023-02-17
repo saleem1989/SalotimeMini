@@ -1,0 +1,68 @@
+{
+  "_from": "cordova-plugin-firebase-dynamiclinks@6.1.3",
+  "_id": "cordova-plugin-firebase-dynamiclinks@6.1.3",
+  "_inBundle": false,
+  "_integrity": "sha512-hcINWQnZoBChjlUZbnkdu9u1ALcNa282DAtRMx8J8KbF+g1NOU1NRkgqP1c5R6rQI4EVO4ZsdsLV7LY6LTx83w==",
+  "_location": "/cordova-plugin-firebase-dynamiclinks",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-firebase-dynamiclinks@6.1.3",
+    "name": "cordova-plugin-firebase-dynamiclinks",
+    "escapedName": "cordova-plugin-firebase-dynamiclinks",
+    "rawSpec": "6.1.3",
+    "saveSpec": null,
+    "fetchSpec": "6.1.3"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-firebase-dynamiclinks/-/cordova-plugin-firebase-dynamiclinks-6.1.3.tgz",
+  "_shasum": "3f382e23c6fb5bc3d1e5bbf049ea1db5f60a4a18",
+  "_spec": "cordova-plugin-firebase-dynamiclinks@6.1.3",
+  "_where": "C:\\salotime\\client_2_7_11",
+  "author": {
+    "name": "Maksim Chemerisuk",
+    "email": "chemerisuk@gmail.com",
+    "url": "https://github.com/chemerisuk"
+  },
+  "bugs": {
+    "url": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-firebase-dynamiclinks",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova plugin for Firebase Dynamic Links",
+  "funding": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks?sponsor=1",
+  "homepage": "https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks#readme",
+  "keywords": [
+    "Firebase Invites",
+    "Firebase",
+    "Invites",
+    "App Invites",
+    "Google App Invites",
+    "Firebase Dynamic Links",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-firebase-dynamiclinks",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chemerisuk/cordova-plugin-firebase-dynamiclinks.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags",
+    "version": "perl -p -i -e 's/(version=)\"\\d+\\.\\d+\\.\\d+\"/$1\"'$npm_package_version'\"$2/' plugin.xml && git add plugin.xml"
+  },
+  "version": "6.1.3"
+}

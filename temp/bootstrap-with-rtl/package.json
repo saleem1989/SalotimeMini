@@ -1,0 +1,108 @@
+{
+  "_from": "bootstrap-with-rtl@^1.0.3",
+  "_id": "bootstrap-with-rtl@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-WpHtKV2VVaOrJWi6zJnUZY692swUDWhQ7tY+t7pJfWDWBqhywHO+ne71ypSz41hj89s3urzKYJ+KBp8n79COWA==",
+  "_location": "/bootstrap-with-rtl",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "bootstrap-with-rtl@^1.0.3",
+    "name": "bootstrap-with-rtl",
+    "escapedName": "bootstrap-with-rtl",
+    "rawSpec": "^1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-with-rtl/-/bootstrap-with-rtl-1.0.3.tgz",
+  "_shasum": "46e037f7c1a23e3ded6aa0c165b48c7c3fee6187",
+  "_spec": "bootstrap-with-rtl@^1.0.3",
+  "_where": "C:\\salotime\\client",
+  "author": {
+    "name": "Mostafa Najafi",
+    "email": "mostafa.najafi1996@gmail.com"
+  },
+  "bootstrapVersion": "4.0.0-beta.2",
+  "browserslist": [
+    "Chrome >= 45",
+    "Firefox ESR",
+    "Edge >= 12",
+    "Explorer >= 10",
+    "iOS >= 9",
+    "Safari >= 9",
+    "Android >= 4.4",
+    "Opera >= 30"
+  ],
+  "bugs": {
+    "url": "https://github.com/m6stafa/bootstrap-with-rtl/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "autoprefixer": "^7.1.6",
+    "babel-core": "7.0.0-beta.2",
+    "babel-plugin-external-helpers": "7.0.0-beta.2",
+    "babel-preset-env": "^2.0.0-beta.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^2.15.0",
+    "gulp-rtlcss": "^1.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "lodash": "^4.17.4",
+    "postcss-discard-comments": "^2.0.4",
+    "rollup": "^0.50.0",
+    "rollup-plugin-babel": "^3.0.2",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "deprecated": false,
+  "description": "Bootstrap framework with rtl",
+  "devDependencies": {},
+  "engines": {
+    "node": ">=6"
+  },
+  "files": [
+    ".babelrc",
+    ".rtlcssrc.json",
+    "build",
+    "dist",
+    "js",
+    "scss",
+    "tasks",
+    "gulpfile.js"
+  ],
+  "homepage": "https://getbootstrap.com",
+  "keywords": [
+    "rtl",
+    "bootstrap",
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "license": "MIT",
+  "main": "dist/js/bootstrap",
+  "name": "bootstrap-with-rtl",
+  "peerDependencies": {
+    "jquery": "1.9.1 - 3",
+    "popper.js": "^1.12.6"
+  },
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m6stafa/bootstrap-with-rtl.git"
+  },
+  "version": "1.0.3"
+}

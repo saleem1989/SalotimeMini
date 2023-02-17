@@ -1,0 +1,46 @@
+{
+  "_from": "babel-helpers@7.0.0-beta.2",
+  "_id": "babel-helpers@7.0.0-beta.2",
+  "_inBundle": false,
+  "_integrity": "sha512-oi+aEH40PUdpd+l3x+wSVhb8o1Hrv2Md4k4HMLPodPmztH6ApAz7oUAQpH9qQIgb3fPVCVFgxYptSTyUTrnxfA==",
+  "_location": "/babel-helpers",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "babel-helpers@7.0.0-beta.2",
+    "name": "babel-helpers",
+    "escapedName": "babel-helpers",
+    "rawSpec": "7.0.0-beta.2",
+    "saveSpec": null,
+    "fetchSpec": "7.0.0-beta.2"
+  },
+  "_requiredBy": [
+    "/babel-core"
+  ],
+  "_resolved": "https://registry.npmjs.org/babel-helpers/-/babel-helpers-7.0.0-beta.2.tgz",
+  "_shasum": "a2f5f85e6c8e2739fa68e9137fdc0966538150f5",
+  "_spec": "babel-helpers@7.0.0-beta.2",
+  "_where": "C:\\salotime\\client\\node_modules\\babel-core",
+  "author": {
+    "name": "Sebastian McKenzie",
+    "email": "sebmck@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "babel-template": "7.0.0-beta.2",
+    "babel-traverse": "7.0.0-beta.2",
+    "babel-types": "7.0.0-beta.2"
+  },
+  "deprecated": false,
+  "description": "Collection of helper functions used by Babel transforms.",
+  "homepage": "https://babeljs.io/",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "babel-helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/babel/babel/tree/master/packages/babel-helpers"
+  },
+  "version": "7.0.0-beta.2"
+}

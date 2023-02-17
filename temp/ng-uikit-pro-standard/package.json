@@ -1,0 +1,49 @@
+{
+  "_from": "file:ng-uikit-pro-standard-8.0.0.tgz",
+  "_id": "ng-uikit-pro-standard@8.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-r3q6M3fbDSLaNgkOxoaCCszvr41p9MUA66rQKRV1HW4t3beJg9hDdTxT2yIvZPaFbQuYGbtyc71tt5kWDzakGg==",
+  "_location": "/ng-uikit-pro-standard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "file",
+    "where": "C:\\salotime\\client",
+    "raw": "ng-uikit-pro-standard@file:ng-uikit-pro-standard-8.0.0.tgz",
+    "name": "ng-uikit-pro-standard",
+    "escapedName": "ng-uikit-pro-standard",
+    "rawSpec": "file:ng-uikit-pro-standard-8.0.0.tgz",
+    "saveSpec": "file:ng-uikit-pro-standard-8.0.0.tgz",
+    "fetchSpec": "C:\\salotime\\client\\ng-uikit-pro-standard-8.0.0.tgz"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "C:\\salotime\\client\\ng-uikit-pro-standard-8.0.0.tgz",
+  "_shasum": "463200a2f666c3333b46e9a86c8b85c47ff27a5b",
+  "_spec": "ng-uikit-pro-standard@file:ng-uikit-pro-standard-8.0.0.tgz",
+  "_where": "C:\\salotime\\client",
+  "bundleDependencies": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  },
+  "deprecated": false,
+  "es2015": "fesm2015/ng-uikit-pro-standard.js",
+  "esm2015": "esm2015/ng-uikit-pro-standard.js",
+  "esm5": "esm5/ng-uikit-pro-standard.js",
+  "fesm2015": "fesm2015/ng-uikit-pro-standard.js",
+  "fesm5": "fesm5/ng-uikit-pro-standard.js",
+  "files": [
+    "**/*"
+  ],
+  "main": "bundles/ng-uikit-pro-standard.umd.js",
+  "metadata": "ng-uikit-pro-standard.metadata.json",
+  "module": "fesm5/ng-uikit-pro-standard.js",
+  "name": "ng-uikit-pro-standard",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  },
+  "sideEffects": false,
+  "typings": "ng-uikit-pro-standard.d.ts",
+  "version": "8.0.0"
+}

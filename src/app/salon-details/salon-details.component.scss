@@ -1,0 +1,372 @@
+@import "../../scss/variables";
+
+.image-preview {
+    height: 5rem;
+    margin: 1rem 0;
+  }
+  
+  .col-custom
+  {
+    max-width: 0.1% !important;
+  }
+  
+  .info
+  {
+    vertical-align: bottom;
+    font-size: small;
+  }
+  
+  .wt_opt
+  {
+    font-size:smaller;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+  .filled ::ng-deep svg path {
+    fill: white;
+  }
+
+  .whatsappSVG ::ng-deep  svg path {
+  
+    opacity: 0.5;
+    fill:$dynamic-private-c6 !important; 
+  }
+
+
+  .filled ::ng-deep svg .dynamic_fill_color {
+    fill: $dynamic-private-c6; 
+  }
+
+  .filled ::ng-deep .dynamic_stroke_color  {
+    stroke: $dynamic-private-c6; 
+  }
+
+  .blank ::ng-deep .dynamic_stroke_color  {
+    stroke: $dynamic-private-c6;
+  }
+
+  
+  .blank ::ng-deep svg path {
+    fill: white;
+    stroke: $dynamic-private-c6;
+  }
+
+
+  .editBtnIcon
+  {
+    fill: $dynamic-private-c6 !important;
+  }
+  
+  .questionicon
+  {
+    color: $dynamic-private-c6;
+    font-size: large;
+  }
+
+
+  .timeInMinLabel
+  {
+    font-size: 0.55rem !important;
+  }
+  
+  .txt-alignment
+  {
+    text-align: right;
+  }
+  
+  .image-preview img {
+    height: 100%;
+  }
+  
+  ul.stepper.horizontal .step .step-title::before {
+    font-weight: 900;
+    font-family: "Font Awesome 5 Free";
+  }
+  
+  ul.stepper.horizontal .step:nth-of-type(1) .step-title {
+    &:before {
+      content: "\f007";
+    }
+  }
+  
+  ul.stepper.horizontal .step:nth-of-type(2) .step-title {
+    &:before {
+      content: "\f004";
+    }
+  }
+  
+  ul.stepper.horizontal .step:nth-of-type(3) .step-title {
+    &:before {
+      content: "\f005";
+    }
+  }
+  
+  .nextBtn {
+    position: absolute;
+    top: 490px;
+    right: 230px;
+  }
+  .customPadding {
+    padding-top: 10px;
+  }
+  
+  
+  .category {
+    padding-top: 30px;
+  }
+  
+  .btn-primary {
+    background-color: $dynamic-private-c6 !important;
+  }
+  
+  .tabs-primary {
+    background-color: $dynamic-private-c6 !important;
+  }
+  
+  .btn-primary:hover {
+    background-color: $dynamic-private-c6 !important;
+    border-color: $dynamic-private-c6 !important;
+  }
+  
+  .btn-primary:not([disabled]):not(.disabled).active,
+  .btn-primary:not([disabled]):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    background-color: $dynamic-private-c6 !important;
+    box-shadow: none !important;
+  }
+  
+  .btn-blue {
+    background-color: #10b4fa !important;
+    color: #fff;
+  }
+  
+  .bottomBorder {
+    border-bottom: 1px solid #ced4da !important;
+  }
+  
+  .step-title {
+    font-size: x-smal !important;
+  }
+  
+  mdb-step {
+    font-size: x-smal !important;
+  }
+  
+  .step3 {
+    font-size: x-smal !important;
+  }
+  
+  .step2 {
+    padding: 0px !important;
+  }
+  
+  .step-new-content {
+    padding: 0px !important;
+  }
+  
+  .serverciesTable td,
+  .serverciesTable th {
+    vertical-align: initial;
+  }
+  
+  .table.table td,
+  table.table th {
+    vertical-align: initial;
+    max-width: 60px;
+    text-align: center;
+  }
+  table.table th {
+    vertical-align: middle !important;
+  }
+  
+  .col1 {
+    width: 5%;
+  }
+  
+  .col2 {
+    width: 35%;
+    height:44px;
+  }
+  
+  .col3 {
+    width: 10%;
+  }
+  
+  .col4 {
+    width: 20%;
+  }
+  
+  .col5 {
+    width: 30%;
+  }
+  
+  tbody {
+    vertical-align: top !important;
+  }
+  
+  .table.table td {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-left: 1px;
+  }
+  
+  .fa-plus-circle {
+    color: green;
+  }
+  
+  .fa-minus-circle {
+    color: red;
+  }
+  
+  .md-form .form-control.is-valid,
+  .md-form .form-control.is-invalid {
+    background-position: center left !important;
+  }
+  
+  .md-form {
+    margin-bottom: 0px !important;
+  }
+  
+  .serviceBox {
+    border: 3px solid #b7b7b77d;
+  }
+  
+  .dDDcss {
+    max-width: 87px;
+  }
+  
+  .dDDcss *{
+    font-size: 30px;
+  }
+  #pictures {
+    width: 100%;
+  }
+  
+  .workTimeObj .md-form input[type="text"] {
+    text-align: center !important;
+  }
+  
+  .devServerciesTable table th,
+  .devServerciesTable table td {
+  
+    border-top:0px;
+  }
+  
+  .infoIcons
+  {
+    width:35px;
+    height:35px;
+  }
+  
+  .nav_icons
+  {
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+    //justify-content: center;
+  }
+  
+  .liste
+  {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .liste i
+  {
+    font-size: 1.1rem;
+    line-height: 33px !important;
+  }
+  
+  
+  .buttonNavs {
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+  
+  .step2From .fa-plus-circle 
+  {
+    font-size:large;
+  }
+  
+  .employeesModal  .blueLetter
+  {
+    font-size: 1.1rem;
+    line-height: 30px !important;
+  }
+
+  .selectedEmp
+  {
+    font-size: 0.8rem !important; 
+    font-weight: bolder !important;
+  }
+
+  .borderp
+  {
+   border:2px solid #10B4FA; 
+  }
+  
+  .iconLabel {
+    font-family: SegoeUI;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #000000;
+  }
+  
+  .disabledBtn{
+    background-color: #bbbbbb !important
+  }
+
+.devServerciesTable .form-control
+{
+ display:inline;
+}
+
+.devServerciesTable input.form-control
+{
+display:inline;
+}
+
+
+
+.btn-floating
+{
+  width:58px;
+  height:58px;
+}
+.btn-floating i
+{
+  font-size: 1.5rem;
+  line-height: 60px;
+}
+
+.outer {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 150px !important; /* any size */
+  max-height: 150px !important; /* any size */
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  
+.inner {
+  width:30px;
+  height: 30px;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -10px;
+  right: -5px;
+}
+
+
+
+  

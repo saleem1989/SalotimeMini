@@ -1,0 +1,78 @@
+{
+  "_from": "cordova-plugin-advanced-imagepicker@1.5.5",
+  "_id": "cordova-plugin-advanced-imagepicker@1.5.5",
+  "_inBundle": false,
+  "_integrity": "sha512-KgkwYt51EfjNgWwEI8XFyirC8eUHkkBDZlUXq4fa6mXRTPhNcZSFNmAALQmpdg8JA0FNd1KTzzuQ3MOq+K8nxw==",
+  "_location": "/cordova-plugin-advanced-imagepicker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "cordova-plugin-advanced-imagepicker@1.5.5",
+    "name": "cordova-plugin-advanced-imagepicker",
+    "escapedName": "cordova-plugin-advanced-imagepicker",
+    "rawSpec": "1.5.5",
+    "saveSpec": null,
+    "fetchSpec": "1.5.5"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-advanced-imagepicker/-/cordova-plugin-advanced-imagepicker-1.5.5.tgz",
+  "_shasum": "1b1607b8901ce2e2c622c6cc147e65695a65d2b2",
+  "_spec": "cordova-plugin-advanced-imagepicker@1.5.5",
+  "_where": "C:\\salotime\\client_2_7_11",
+  "author": {
+    "name": "EinfachHans"
+  },
+  "bugs": {
+    "url": "https://github.com/EinfachHans/cordova-plugin-advanced-imagepicker/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-advanced-imagepicker",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Plugin for an advanced (multiple) ImagePicker",
+  "devDependencies": {
+    "@commitlint/config-conventional": "13.2.0",
+    "@saithodev/semantic-release-backmerge": "1.5.3",
+    "@semantic-release/changelog": "6.0.0",
+    "@semantic-release/exec": "6.0.1",
+    "@semantic-release/git": "10.0.0",
+    "@semantic-release/npm": "8.0.0",
+    "doctoc": "2.0.1"
+  },
+  "homepage": "https://github.com/EinfachHans/cordova-plugin-advanced-imagepicker",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "camera",
+    "advanced",
+    "image",
+    "picker",
+    "imagepicker",
+    "multiple",
+    "many",
+    "video",
+    "file",
+    "chooser"
+  ],
+  "license": "MIT",
+  "main": "./src/typings/index.js",
+  "name": "cordova-plugin-advanced-imagepicker",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EinfachHans/cordova-plugin-advanced-imagepicker.git"
+  },
+  "scripts": {
+    "doctoc": "doctoc readme.md --github --title '**Table of Content**' --maxlevel 3"
+  },
+  "types": "./src/typings/index.d.ts",
+  "version": "1.5.5"
+}
